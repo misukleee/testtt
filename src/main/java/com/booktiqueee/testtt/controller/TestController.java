@@ -14,6 +14,7 @@ public class TestController {
 	@GetMapping("name")
 	public String name() {
 		log.debug("로그로그");
+		
 		return "dd";
 	}
 }
